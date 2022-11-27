@@ -121,6 +121,12 @@ button {
   color: var(--primary-title);
 }
 /* Our Team section */
+.team-section {
+  background-color: #F4F4FD;
+}
+.team-list-card {
+  background-color: var(--white-hero-text);
+}
 .team-list .title {
   font-weight: 600;
   font-size: 20px;
