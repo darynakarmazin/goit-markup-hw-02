@@ -1,7 +1,7 @@
 :root {
   --primary-text: #434455;
   --primary-title: #2e2f42;
-  --accent: #4D5AE5;
+  --accent: #4d5ae5;
   --white-hero-text: #ffffff;
 }
 .link {
@@ -122,7 +122,7 @@ button {
 }
 /* Our Team section */
 .team-section {
-  background-color: #F4F4FD;
+  background-color: #f4f4fd;
 }
 .team-list-card {
   background-color: var(--white-hero-text);
