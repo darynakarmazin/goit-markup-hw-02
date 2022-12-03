@@ -15,17 +15,15 @@ body {
   /* font-style: normal;
   font-weight: 400; */
   font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
+  /* line-height: 1.5;
+  letter-spacing: 0.02em; */
   color: var(--primary-text);
 }
 .logo {
-  font-family: "Raleway", cursive;
+  font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.33;
-  display: flex;
-  align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--accent);
@@ -34,6 +32,8 @@ body {
   color: var(--primary-title);
 }
 .site-nav .link {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
   font-weight: 600;
   color: var(--primary-title);
 }
@@ -48,6 +48,8 @@ body {
   color: var(--accent);
 }
 .contacts .link {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
   color: var(--primary-text);
 }
 .contacts .link:hover,
@@ -62,16 +64,15 @@ body {
   font-weight: 600;
   font-size: 56px;
   line-height: 1.07;
-  text-align: center;
   letter-spacing: 0.02em;
+  text-align: center;
   color: var(--white-hero-text);
 }
 .hero .hero-btn {
+  font-family: Roboto, sans-serif;
   font-weight: 600;
   font-size: 16px;
   line-height: 1.19;
-  display: flex;
-  align-items: center;
   letter-spacing: 0.04em;
   color: var(--white-hero-text);
   background-color: var(--accent);
@@ -98,6 +99,7 @@ button {
   font-weight: 600;
   font-size: 36px;
   line-height: 1.11;
+  letter-spacing: 0.02em;
   text-align: center;
   text-transform: capitalize;
   color: var(--primary-title);
@@ -118,6 +120,7 @@ button {
   font-weight: 600;
   font-size: 20px;
   line-height: 1.2;
+  letter-spacing: 0.02em;
   color: var(--primary-title);
 }
 /* Our Team section */
@@ -131,10 +134,13 @@ button {
   font-weight: 600;
   font-size: 20px;
   line-height: 1.2;
+  letter-spacing: 0.02em;
   text-align: center;
   color: var(--primary-title);
 }
 .tean-list .text {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
   text-align: center;
 }
 /* footer */
@@ -145,14 +151,17 @@ footer {
   color: #f4f4fd;
 }
 .footer .text {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
   color: #e7e9fc;
 }
 /*  */
 .site-filter .button {
+  font-family: Roboto, sans-serif;
+  font-size: 16px;
   font-weight: 600;
-  display: flex;
-  align-items: center;
   text-align: center;
+  line-height: 1.5;
   letter-spacing: 0.04em;
   color: var(--accent);
   background-color: #f4f4fd;
@@ -171,8 +180,11 @@ footer {
   font-weight: 600;
   font-size: 20px;
   line-height: 1.2;
+  letter-spacing: 0.02em;
   color: var(--primary-title);
 }
 .portfolio-list .text {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
   color: var(--primary-text);
 }
