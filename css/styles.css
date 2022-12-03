@@ -68,6 +68,11 @@ body {
   text-align: center;
   color: var(--white-hero-text);
 }
+button {
+  cursor: pointer;
+  font-family: inherit;
+  font-size: inherit;
+}
 .hero .hero-btn {
   /* font-family: Roboto, sans-serif;
   font-size: 16px; */
@@ -90,11 +95,6 @@ body {
   background: #404bbf;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
-}
-button {
-  cursor: pointer;
-  font-family: inherit;
-  font-size: inherit;
 }
 /* features section */
 .section-title {
